@@ -6,4 +6,17 @@
 لي السحب الروابط من صفحه ويب
 
 Install:
-git clone 
+---------------------
+apt update && apt upgrade
+apt install git
+apt install python2
+apt install python3
+apt install python
+pip install os-sys
+pip install os
+------------------
+git clone https://github.com/5xxl/GOGO
+ls
+cd GOGO
+ls
+python gogo.py
