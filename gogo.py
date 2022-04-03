@@ -1,3 +1,16 @@
+i=input("pip install ? {y} or {n}\n↳{")
+if (i=="y"):
+    os.system('pip install os')
+    os.system('pip install googlesearch')
+    os.system('pip install httplib2')
+    os.system('pip install bs4 ')
+    os.system('pip install pyfiglet')
+    print("✅"*5)
+    os.system('clear')
+else:
+  print ("ok")
+  os.system('clear')
+
 from googlesearch import search
 #import requests as re
 import httplib2
